@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #3bb4fa;
+    --color-nav: #fff;
+
+}
+
+/* Nav styling */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.7rem;
+}
+
+.nav a {
+    color: #333;
+    font-weight: 700;
+}
+
+.navlinks ul li a:hover {
+    scale: 1.5;
+}
+
+.logo img {
+    width: 8rem;
+    margin-left: 15rem;
+}
+
+.navlinks {
+    margin-right: 15rem;
+}
+.navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+}
+
+ .btn {
+    background: var(--primary-color);
+    height: 2.4rem;
+    width: 10rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: transparent;
+    border-radius: 1rem;
+}
+
+.btn a {
+    color: #fff;
+    font-weight: 00;
+}
+
+nav {
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+  }
+  
+  /* change navbar styles on scroll using javascript */
+  
+  .window-scroll {
+    background: var(--color-nav);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.04);
+  }
+
+
+/* Hero section */
+
+.hero {
+    background-image: linear-gradient(rgb(13, 16, 12, 0.7), rgba(0, 0, 0, 0.3)),url(./Assets/hero\ image.jpg);
+    height: 70vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 3.5rem;
+    text-align: left;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+
+
+
+.form__section {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.form__section img {
+    width: 30rem;
+}
+ .form__section .items {
+    padding-left: 6rem;
+}
+
+.form__section .items ul {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.benefits__section {
+    padding-top: 2rem;
+}
+
+.benefits__section .text {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.benefits__section .text p {
+    width: 10rem;
+    padding-top: 4rem;
+}
+
+.benefits__section h2,
+.benefits__section h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits__section h4 {
+    padding-top: 2rem;
+}
+
+.details__container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 4rem;
+}
+
+.details__container img {
+    width: 35rem;
+    height: 22rem;
+    padding-left: 4rem;
+}
+
+.details {
+    padding-right: 4rem;
+    line-height: 2rem;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 5rem;
+    width: 100vw;
+}
+
+.testimonial img {
+    width: 50rem;
+}
+
+.testimonial .btn {
+    width: 12rem;
+}
+
+/*  */
+
+.resource__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.resource {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.resource img {
+    height: 25rem;
+}
+
+small {
+    font-weight: 700;
+}
+
+
+
+
+
+/* media queries */
+
+@media screen and  (max-width: 600px) {
+    .nav ul {
+        display: none;
+    }
+
+    .logo img{
+        margin-left: 2rem;
+    }
+
+    .hero h2,
+    .hero h4 {
+        text-align: center;
+    }
+
+    .details__container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .details__container img {
+        width: 28rem;
+        padding-left: 1rem;
+    }
+    
+    .details {
+        padding-left: 6rem;
+
+    }
+
+    .testimonial img {
+        width: 35rem;
+    }
+
+    .resource__container {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media screen and  (max-width: 1024px) {
+    .nav ul {
+        display: none;
+    }
+
+    .logo img{
+        margin-left: 2rem;
+    }
+}
