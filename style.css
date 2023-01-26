@@ -390,6 +390,8 @@ iframe {
 
     .testimonial img {
         width: 35rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .resource__container {
@@ -397,11 +399,9 @@ iframe {
     }
 
     .resource {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
         padding-top: 2rem;
-        width: 25rem;
-        
     }
 
     .footer .links {
