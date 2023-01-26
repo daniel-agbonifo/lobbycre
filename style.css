@@ -302,7 +302,7 @@ small {
     align-items: center;
     margin-top: 5rem;
     height: 10rem;
-    width: 100vw;
+    width: 100%;
     color: #fff;
     font-size: 1.06rem;
 }
@@ -333,7 +333,7 @@ iframe {
 
 /* media queries */
 
-@media screen and  (max-width: 600px) {
+@media screen and  (max-width: 768px) {
     .nav ul {
         display: none;
     }
