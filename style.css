@@ -150,7 +150,7 @@ nav {
     align-items: center;
     text-align: center;
     gap: 1rem;
-    width: 25rem;
+    width: 30rem;
 
 }
 
@@ -358,7 +358,10 @@ iframe {
     .hero h3 {
         width: 80%;
         text-align: left;
-       
+    }
+
+    .about {
+        width: 25rem;
     }
 
     .form__section {
