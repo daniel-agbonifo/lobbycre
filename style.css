@@ -27,6 +27,15 @@
 .nav a {
     color: #333;
     font-weight: 700;
+    transition: var(--transition);
+}
+
+.nav a:hover {
+    color: var(--primary-color);
+}
+
+.nav .btn a:hover {
+    color: #fff;
 }
 
 .navlinks ul li a:hover {
@@ -92,8 +101,8 @@ nav {
 /* Hero section */
 
 .hero {
-    background-image: url(./Assets/hero\ image.png);
-    height: 70vh;
+    background-image:linear-gradient(rgb(13, 16, 12, 0.7), rgba(0, 0, 0, 0.3)), url(./Assets/hero\ image.png);
+    height: 100vh;
     width: 100vw;
     background-position: center;
     background-size: cover;
@@ -116,7 +125,8 @@ nav {
 }
 
 .hero h2 {
-    font-size: 3rem;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
 }
 .trial {
     position: absolute;
@@ -139,18 +149,15 @@ nav {
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 5rem;
 }
 
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     gap: 1rem;
     width: 30rem;
+    padding-left: 6rem;
 
 }
 
@@ -162,24 +169,27 @@ nav {
     width: 12rem;
 }
 
+/* form section */
+
 .form__section {
-    padding-top: 5rem;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    height: 100vh;
+    height: 80vh;
     border-bottom: 1px solid #333;
 }
 
 
  .form__section .items {
-    padding-left: 22rem;
+    padding-left: 10rem;
 }
 
-.list_-item {
+.list__item ul li{
     display: flex;
+    gap: 0.5rem;
+    list-style: none;
 }
 .form {
     overflow: hidden !important;
@@ -193,6 +203,19 @@ nav {
     flex-direction: column;
     gap: 0.5rem;
     line-height: 1.5rem;
+}
+
+.resource__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.resource__center a {
+    color: var(--primary-color);
+    text-decoration: underline;
+
 }
 
 .benefits__section {
@@ -227,6 +250,7 @@ nav {
     align-items: center;
     gap: 5rem;
     padding-top: 4rem;
+    height: 25vh;
 }
 
 .details__container img {
