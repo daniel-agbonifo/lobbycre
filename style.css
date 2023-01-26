@@ -8,6 +8,7 @@
 
 :root {
     --primary-color: #3bb4fa;
+    --secondary-color: #ee6352;
     --color-nav: #fff;
     --color-hover: #007BC2;
     --transition: 0.5s ease-in-out;
@@ -49,7 +50,7 @@
 }
 
  .btn {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     height: 2.4rem;
     width: 10rem;
     padding-left: 0.5rem;
