@@ -9,6 +9,8 @@
 :root {
     --primary-color: #3bb4fa;
     --color-nav: #fff;
+    --color-hover: #007BC2;
+    --transition: 0.5s ease-in-out;
 
 }
 
@@ -54,6 +56,13 @@
     padding-right: 0.5rem;
     border: transparent;
     border-radius: 1rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--color-hover);
+    scale: 1.02;
 }
 
 .btn a {
@@ -214,6 +223,30 @@ small {
     font-weight: 700;
 }
 
+.footer {
+    background: url(./Assets/grad2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 5rem;
+    height: 10rem;
+    width: 100vw;
+    color: #fff;
+    font-size: 1.06rem;
+}
+
+.footer .links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 
 
 
@@ -255,6 +288,10 @@ small {
 
     .resource__container {
         flex-direction: column;
+    }
+
+    .resource {
+        padding-top: 2rem;
     }
 }
 
