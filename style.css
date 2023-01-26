@@ -121,9 +121,7 @@ nav {
     height: 60vh;
 }
 
-.form__section img {
-    width: 30rem;
-}
+
  .form__section .items {
     padding-left: 6rem;
 }
@@ -219,6 +217,10 @@ nav {
     height: 25rem;
 }
 
+.resource h3 {
+    color: var(--primary-color);
+}
+
 small {
     font-weight: 700;
 }
@@ -247,6 +249,12 @@ small {
     text-decoration: underline;
 }
 
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -265,6 +273,11 @@ small {
     .hero h2,
     .hero h4 {
         text-align: center;
+    }
+
+    .form__section {
+        flex-direction: column;
+        height: 100vh;
     }
 
     .details__container {
