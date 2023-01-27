@@ -492,6 +492,9 @@ iframe {
         height: 170vh;
     }
 
+    .details__container img {
+    padding-right: 4rem;    }
+
     .about {
         padding-left: 0;
         text-align: center;
@@ -505,8 +508,8 @@ iframe {
     .stats__container {
         flex-direction: column;
         padding-left: 4rem;
-        height: 2rem;
-        margin-bottom: -15rem;
+        height: 4rem;
+        margin-bottom: 4rem;
     }
 
     .stats__card {
@@ -531,13 +534,13 @@ iframe {
 
     .testimonial img {
         width: 35rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     .resource__container {
         flex-direction: column;
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
 
     .resource {
