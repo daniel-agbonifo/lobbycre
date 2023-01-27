@@ -197,6 +197,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    font-size: 1.1rem;
 }
 
 .about {
@@ -281,6 +282,7 @@ nav {
 
 .benefits__section {
     padding-top: 4rem;
+    border-bottom: 1px solid #333;
 }
 
 .benefits__section .text {
@@ -315,7 +317,6 @@ nav {
     padding-bottom: 6rem;
     padding-left: auto;
     height: 50vh;
-    border-bottom: 1px solid #333;
 }
 
 .details__container img {
@@ -500,8 +501,8 @@ iframe {
     }
 
     .form__section .items {
-        padding-left: 4rem;
-        width: 80vw;
+        padding-left: 2rem;
+        width: 76vw;
     }
 
     .form {
@@ -522,7 +523,8 @@ iframe {
         align-items: center;
         flex-direction: column;
         gap: 2.5rem;
-        height: 170vh;
+        height: 100%;
+        margin-top: 5rem;
     }
 
     .details__container img {
@@ -540,14 +542,17 @@ iframe {
 
     .stats__container {
         flex-direction: column;
+        gap: 1rem;
         padding-left: 4rem;
-        height: 4rem;
-        padding-bottom: 4rem;
+        margin-top: 1rem;
+        height: 30rem;
+        padding-bottom: 2rem;
     }
 
     .stats__card {
-        height: 10rem;
+        height: 12rem;
         width: 14rem;
+        font-size: 1.2rem;
     }
 
     .details__container {
@@ -562,7 +567,42 @@ iframe {
     
     .details {
         padding-left: 6rem;
+    }
 
+    .benefits__section {
+        height: 190vh;
+        width: 100%;
+        border-bottom: 20px solid yellow;
+    }
+
+    .benefits__section .text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        flex-direction: column;
+    }
+
+    .details__container {
+        margin-top: 15rem;
+    }
+
+    .details ul li {
+        line-height: 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .details ul li img {
+        height: 1rem;
+        width: 6rem;
+
+    }
+
+    .benefits__section .benefit {
+        width: 20rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .testimonial img {
@@ -589,6 +629,7 @@ iframe {
 
     .footer {
         height: 30vh;
+        width: 100vw;
     }
 
     .footer .links {
@@ -601,15 +642,12 @@ iframe {
         padding-right: 1.5rem;
     }
 
-    .benefits__section,
-    .form__section {
-        display: none;
-    }
-
 
     .footer p {
         display: none;
     }
+
+  
 }
 
 
