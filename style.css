@@ -341,8 +341,10 @@ nav {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     width: 100vw;
+    border-bottom: 1px solid #333;
 }
 
 .testimonial img {
