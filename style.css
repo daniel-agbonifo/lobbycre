@@ -509,7 +509,7 @@ iframe {
         flex-direction: column;
         padding-left: 4rem;
         height: 4rem;
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
     }
 
     .stats__card {
