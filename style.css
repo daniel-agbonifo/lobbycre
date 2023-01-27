@@ -489,23 +489,24 @@ iframe {
         align-items: center;
         flex-direction: column;
         gap: 2.5rem;
-        height: 100vh;
-        margin-top: 20rem;
-        padding-top: 10rem;
+        height: 170vh;
     }
 
     .about {
         padding-left: 0;
         text-align: center;
+        width: 20rem;
     }
 
     .about .btn {
-        position: ;
+        margin-left: 3.5rem;
     }
 
     .stats__container {
         flex-direction: column;
         padding-left: 4rem;
+        height: 2rem;
+        margin-bottom: -15rem;
     }
 
     .stats__card {
@@ -545,10 +546,27 @@ iframe {
         padding-top: 2rem;
     }
 
+    .resource img {
+        height: 20rem;
+        width: 18rem;
+    }
+
+    .footer {
+        height: 30vh;
+    }
+
     .footer .links {
-        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
         padding-left: 1rem;
         padding-right: 1.5rem;
+    }
+
+    .footer p {
+        display: none;
     }
 }
 
