@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'lato', sans-serif;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 :root {
@@ -117,7 +118,7 @@ nav {
 }
 
 .content {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -128,6 +129,7 @@ nav {
 .hero h2 {
     font-size: 4.5rem;
     margin-bottom: 3rem;
+    height: 5rem;
 }
 
 .hero h3 {
@@ -472,12 +474,16 @@ iframe {
     .hero > .content {
         padding-top: 2rem;
         line-height: 2rem;
+        border: 2px solid black;
+        display: flex;
+        flex: row;
     }
 
     .hero h2 {
-        padding-top: 5rem;
-        margin-bottom: 1rem;
+        padding-top: 4rem;
         font-size: 3.5rem;
+        border-radius: 2px solid white;
+        height: 10rem;
     }
 
     .hero h3 {
@@ -503,6 +509,7 @@ iframe {
     .form__section .items {
         padding-left: 2rem;
         width: 76vw;
+        height: 35rem;
     }
 
     .form {
@@ -580,10 +587,21 @@ iframe {
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
         flex-direction: column;
+        display: none;
     }
 
     .details__container {
         margin-top: 15rem;
+    }
+
+
+    .details__container img {
+        height: 40rem;
+    }
+
+    .details {
+        
+       
     }
 
     .details ul li {
@@ -599,10 +617,9 @@ iframe {
 
     .benefits__section .benefit {
         width: 20rem;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        place-items: center;
+        margin-left: 5.5rem;
     }
 
     .testimonial img {
