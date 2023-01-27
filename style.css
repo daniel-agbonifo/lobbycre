@@ -252,9 +252,11 @@ nav {
 .form {
     overflow: hidden !important;
     width: 40%;
-    height: 80%;
-    border: 5px solid #333;
+    height: 90%;
+    border: 3px solid #333;
     margin-right: 8rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .form__section .items ul {
@@ -598,6 +600,12 @@ iframe {
         padding-left: 1rem;
         padding-right: 1.5rem;
     }
+
+    .benefits__section,
+    .form__section {
+        display: none;
+    }
+
 
     .footer p {
         display: none;
