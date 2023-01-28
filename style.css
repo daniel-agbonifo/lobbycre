@@ -23,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 0.7rem;
+    z-index: 40;
 }
 
 .nav a {
@@ -46,6 +47,7 @@
 .logo img {
     width: 8rem;
     margin-left: 15rem;
+    margin-bottom: 2rem;
 }
 
 .navlinks {
@@ -85,11 +87,28 @@
 nav {
     background: transparent;
     width: 100vw;
-    height: 5rem;
+    height: 6rem;
     position: fixed;
     top: 0;
-    z-index: 8;
   }
+  .trial {
+    position: absolute;
+    background: rgb(236, 245, 248);
+    width: 100vw;
+    height: 6rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 4.5rem;
+
+}
+
+.trial a {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
   /* change navbar styles on scroll using javascript */
   
@@ -134,20 +153,6 @@ nav {
 
 .hero h3 {
     font-size: 1.5rem;
-}
-.trial {
-    position: absolute;
-    background: rgb(236, 245, 248);
-    width: 100vw;
-    display: none;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-}
-
-.trial a {
-    color: var(--primary-color);
 }
 
 /* About section */
@@ -464,15 +469,19 @@ iframe {
     }
 
     .trial {
-        display: flex;
+        display: block;
+        top: 3.9rem;
     }
+
 
     .hero h2 {
         text-align: center;
     }
 
     .hero {
-        height: 50vh;
+        height: 70vh;
+        margin-top: 4rem;
+
     }
 
     .hero > .content {
@@ -567,6 +576,10 @@ iframe {
     .details ul {
         margin-top: 2rem;
         margin-left: 3rem;
+    }
+
+    .details img  {
+        margin-left: 2rem;
     }
 
     .resource__container h2 {
