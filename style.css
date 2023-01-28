@@ -593,11 +593,15 @@ iframe {
     
     .details {
         margin-top: 46rem;
-        height: 30rem;
-        padding-left: 2rem;
-        border: 3px solid yellow;
+        height: 40rem;
+        padding-top: 2rem;
+        top: 60rem;
+        padding-left: 3rem;
         position: absolute;
         text-align: center;
+    }
+    .details h2{
+        text-align: left;
     }
 
     .benefit h4 {
