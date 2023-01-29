@@ -25,6 +25,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <!--  -->
+    <script src="https://kit.fontawesome.com/7fdb3a4ca0.js" crossorigin="anonymous"></script>
   </head>
 
   
@@ -47,6 +49,21 @@
       <section class="trial">
         <a href="">Sign up for a free demo</a>
       </section>
+
+      <div class="toggle" id="toggle" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="dropdown" id="dropdown">
+        <div class="close" onclick="openMenu()">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <ul>
+          <li><a href="">Why Lobby CRE?</a></li>
+          <li><a href="">Resources</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- End of Nav links -->
@@ -66,7 +83,7 @@
 
     <section class="form__section">
       <div class="items">
-        <h2>Industry Leading Corporate Real Estate Software</h2>
+        <h2>Industry Leading Corporate <br> Real Estate Software</h2>
 
         <div class="list__item">
           <ul>
@@ -88,6 +105,10 @@
             </li>
           </ul>
         </div>
+      </div>
+
+      <div class="image">
+        <img src="./Assets/Lobby CRE Computer.png" alt="">
       </div>
 
       <div class="form">
@@ -126,12 +147,15 @@
 
         <div class="details">
           <h2>
-            Improve your real estate flow analysis, forecasting and valuation
-            processes
+            Improve Your Real Estate Flow Analysis, Forecasting and Valuation
+            Processes
           </h2>
-          <h3>Proactively Drive Performance</h3>
 
           <ul class="active">
+            <li>
+              <img class="check" src="https://github.com/daniel-agbonifo/lobbycre/blob/master/Assets/check.png?raw=true" alt="" /> Proactively Drive Performance
+            </li>
+
             <li>
               <img class="check" src="https://github.com/daniel-agbonifo/lobbycre/blob/master/Assets/check.png?raw=true" alt="" /> Model 
               Cashflow Scenarios
@@ -265,5 +289,8 @@
 
       <small>2023 copyright &copy Lobby CRE. All rights reserved.</small>
     </section>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
