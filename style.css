@@ -23,7 +23,9 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 0.7rem;
+    height: 5rem;
     z-index: 40;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.04);
 }
 
 .nav a {
@@ -40,14 +42,11 @@
     color: #fff;
 }
 
-.navlinks ul li a:hover {
-    scale: 1.5;
-}
 
 .logo img {
     width: 8rem;
     margin-left: 15rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .navlinks {
@@ -59,6 +58,7 @@
     align-items: center;
     gap: 4rem;
     list-style: none;
+    margin-bottom: 1rem;
 }
 
  .btn {
@@ -85,7 +85,7 @@
 }
 
 nav {
-    background: transparent;
+    background: #fff;
     width: 100vw;
     height: 6rem;
     position: fixed;
@@ -108,15 +108,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: rem;
 }
   
-  /* change navbar styles on scroll using javascript */
-  
-  .window-scroll {
-    background: var(--color-nav);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.04);
-  }
-
+ 
 
 /* Hero section */
 
@@ -695,8 +690,16 @@ iframe {
         padding-left: 1rem;
         padding-right: 1.5rem;
     }
+    
+    .details ul li {
+        list-style-type: decimal !important;
+        margin-left: 8rem;
+    }
 
-
+    .details img {
+        display: none;
+    }
+    
     .footer p {
         display: none;
     }
