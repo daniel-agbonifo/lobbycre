@@ -117,6 +117,11 @@
     right: 0;
     position: fixed;
     transition: all 500ms ease-in-out;
+    display: none;
+}
+
+.toggle {
+    display: none;
 }
 
 .dropdownfunction {
@@ -127,6 +132,8 @@
     transition: all 500ms ease-in-out;
     border: transparent;
     border-radius: 5px;
+    display: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .close {
@@ -137,10 +144,8 @@
 
 .fa-solid {
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
-  
- 
 
 /* Hero section */
 
@@ -242,7 +247,16 @@
     gap: 1rem;
     width: 30rem;
     padding-left: 6rem;
+}
 
+.dropdown ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 4rem;
+    font-size: 1.2rem;
 }
 
 .about p {
@@ -287,7 +301,7 @@
     width: 100%;
     font-size: 1.5rem;
     height: 30rem;
-    margin-bottom: 14rem;
+    margin-bottom: 10rem;
     position: absolute;
 }
 
@@ -302,7 +316,7 @@
     width: 28rem;
     position: absolute;
     left: 12rem;
-    margin-top: -6rem;
+    margin-top: -4rem;
 }
 
 .form {
@@ -528,23 +542,50 @@ iframe {
 
 @media screen and  (max-width: 768px) {
     .nav ul {
-        display: none;
+        display: ;
     }
 
- 
     body {
         width: 100%;
     }
 
     .logo img{
         margin-left: 2rem;
+        margin-bottom: 1rem;
     }
 
     .trial {
         display: block;
-        top: 3.9rem;
+        top: 4.4rem;
         left: 0;
+        position: absolute;
+        padding-top: 0.2rem;
     }
+
+    .fa-solid {
+        margin-bottom: 1rem;
+    }
+
+    .dropdownfunction {
+        top: 2rem;
+        display: block;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+
+    .close {
+        margin-right: 2rem;
+    }
+
+
+.nav__menu {
+    display: block;
+    position: relative;
+}
+
 
 
     .hero h2 {
@@ -591,25 +632,45 @@ iframe {
         height: 100%;
     }
 
-   
-
     .form__section {
         flex-direction: column;
-        height: 100vh;
+        height: 190vh;
         gap: 2rem;
         margin-top: 5rem;
     }
 
     .form__section .items {
         padding-left: 2rem;
-        width: 76vw;.items
+        width: 100%;
         height: 35rem;
+        top: 35rem;
+        right: 3rem;
+    }
+
+    .items img {
+        width: 10rem;
+        height: 10rem;
+        top: 2em;
+    }
+
+    .items ul {
+        font-size: 1.2rem;
+    }
+
+    .image img {
+        height: 22rem;
+        width: 22rem;
+        position: absolute;
+        left: 4rem;
+        top: 58rem;
+        margin-top: -4rem;
     }
 
     .form {
         height: 100vh;
-        margin-left: 8rem;
-        width: 80%;
+        left: 1.5rem;
+        top: 73rem;
+        width: 90%;
         height: 100%;
     }
 
@@ -723,10 +784,6 @@ iframe {
         gap: 0.5rem;
     }
 
-    .active li {
-        font-size: rem;
-    }
-
 
     .benefit {
         display: flex;
@@ -793,7 +850,7 @@ iframe {
 
 
 @media screen and  (max-width: 1024px) {
-    .nav ul {
+    .navlinks {
         display: none;
     }
 
