@@ -630,11 +630,13 @@ iframe {
 
     .items {
         height: 100%;
+        margin-top: 2rem;
+        
     }
 
     .form__section {
         flex-direction: column;
-        height: 190vh;
+        height: 182vh;
         gap: 2rem;
         margin-top: 5rem;
     }
@@ -655,23 +657,23 @@ iframe {
     }
 
     .items ul {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .image img {
         height: 22rem;
         width: 22rem;
         position: absolute;
-        left: 8rem;
-        top: 58rem;
-        margin-top: -4rem;
+        left: 6rem;
+        top: 60rem;
+        margin-top: -3rem;
     }
 
     .form {
-        height: 100vh;
-        left: 1.5rem;
-        top: 73rem;
-        width: 90%;
+        height: 100%;
+        left: 4.5rem;
+        top: 76rem;
+        width: 80%;
         height: 100%;
     }
 
@@ -842,12 +844,51 @@ iframe {
     .footer p {
         display: none;
     }
-
-  
 }
 
+@media screen and  (min-width: 390px) {
+    .form__section .items {
+        left: -15rem;
+        width: 100%;
+        height: 35rem;
+        top: 38rem;
+        right: 3rem;
+        padding-top: 2rem;
+    }
 
+    .items img {
+        width: 10rem;
+        height: 10rem;
+        top: 2rem;
+    }
 
+    .items ul {
+        font-size: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .image img {
+        height: 22rem;
+        width: 22rem;
+        position: absolute;
+        left: 1.4rem;
+        top: 70rem;
+        margin-top: -3rem;
+    }
+
+    .form {
+        height: 100%;
+        left: 2.5rem;
+        top: 88rem;
+        width: 80%;
+        height: 100%;
+    }
+
+    .details > .active li {
+        font-size: 1.2rem;
+    }
+}
 
 
 @media screen and  (max-width: 1024px) {
