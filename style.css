@@ -362,7 +362,7 @@
 }
 
 .about p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .benefits__section .text {
@@ -540,7 +540,7 @@ iframe {
 
 /* media queries */
 
-@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 600px) {
     .nav ul {
         display: ;
     }
@@ -636,13 +636,13 @@ iframe {
 
     .form__section {
         flex-direction: column;
-        height: 182vh;
+        height: 200vh;
         gap: 2rem;
         margin-top: 5rem;
     }
 
     .form__section .items {
-        left: -12rem;
+        left: -10rem;
         width: 100%;
         height: 35rem;
         top: 35rem;
@@ -665,12 +665,13 @@ iframe {
         width: 22rem;
         position: absolute;
         left: 6rem;
-        top: 60rem;
-        margin-top: -3rem;
+        top: 58rem;
+         bottom: 20rem;
+        margin-left: 4rem;
     }
 
     .form {
-        height: 100%;
+        height: 100vh;
         left: 4.5rem;
         top: 76rem;
         width: 80%;
@@ -833,7 +834,6 @@ iframe {
     }
     
     .details ul li {
-        list-style-type: decimal !important;
         margin-left: 8rem;
     }
 
@@ -846,12 +846,12 @@ iframe {
     }
 }
 
-@media screen and  (min-width: 390px) {
+@media screen and  (width: 390px) {
     .form__section .items {
-        left: -15rem;
+        left: -12rem;
         width: 100%;
         height: 35rem;
-        top: 38rem;
+        top:48rem;
         right: 3rem;
         padding-top: 2rem;
     }
@@ -863,16 +863,18 @@ iframe {
     }
 
     .items ul {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding-left: 0rem;
         padding-right: 0rem;
     }
 
+
+
     .image img {
-        height: 22rem;
+        height: 20rem;
         width: 22rem;
         position: absolute;
-        left: 1.4rem;
+        left: rem;
         top: 70rem;
         margin-top: -3rem;
     }
@@ -889,6 +891,42 @@ iframe {
         font-size: 1.2rem;
     }
 }
+
+
+@media screen and (min-width:375px) {
+    .items {
+        margin-left: 10rem;
+    }
+
+    .list__item {
+        margin-left: 1rem;
+        width: 100%;
+        padding-right: 0rem;
+    }
+
+    .list__item ul {
+        font-size: 0.9rem;
+    }
+
+    
+    .image img {
+        height: 20rem;
+        width: 20rem;
+        position: absolute;
+        left: 1rem;
+        top: 70rem;
+        margin-top: -3rem;
+    }
+
+    .form {
+        height: 100%;
+        left: 2.5rem;
+        top: 88rem;
+        width: 80%;
+        height: 100%;
+    }
+}
+
 
 
 @media screen and  (max-width: 1024px) {
