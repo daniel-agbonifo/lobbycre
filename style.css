@@ -594,14 +594,27 @@ small {
     }
 
     .form__section {
+        display: flex;
         flex-direction: column;
+        height: 190vh;
+    }
+
+    .image  {
+        margin-right: 4rem;
     }
 
     .iframe {
-        
+        left: 0;
+        top: 84rem;
+        width: 95%;
+        background: rgb(205, 202, 202);
+        height: 100%;
+        margin-left: 0.5rem;
+        border-radius: 1rem;
     }
-    
 
+   
+ 
     
 
 
@@ -782,6 +795,10 @@ small {
 @media screen and  (max-width: 1024px) {
     .navlinks {
         display: none;
+    }
+
+    .dropdownfunction {
+        display: block;
     }
 
     .logo img{
