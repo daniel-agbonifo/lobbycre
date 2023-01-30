@@ -147,6 +147,12 @@
     font-size: 2rem;
 }
 
+.check {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.4rem;
+}
+
 /* Hero section */
 
 .hero {
@@ -274,6 +280,7 @@
     align-items: center;
     gap: 10rem;
     border-bottom: 1px solid #333;
+    height: 100%;
 }
 
 .section strong {
@@ -293,6 +300,7 @@
 .section p {
     display: flex;
     margin-top: 1rem;
+    gap: 0.5rem;
 }
 
 .image {
@@ -301,11 +309,12 @@
 }
 
 iframe {
-    border: 1px solid blue;
     left: 60rem;
     float: right;
     position: absolute;
 }
+
+
 /* end of form section */
 
 
@@ -504,9 +513,6 @@ small {
 /* media queries */
 
 @media screen and  (max-width: 600px) {
-    .nav ul {
-        display: ;
-    }
 
     body {
         width: 100%;
@@ -538,20 +544,16 @@ small {
         display: block;
     }
 
-
     .close {
         margin-right: 2rem;
     }
 
-
-.nav__menu {
+    .nav__menu {
     display: block;
     position: relative;
 }
 
-
-
-    .hero h2 {
+   .hero h2 {
         text-align: center;
     }
 
@@ -590,6 +592,17 @@ small {
     .about {
         width: 25rem;
     }
+
+    .form__section {
+        flex-direction: column;
+    }
+
+    .iframe {
+        
+    }
+    
+
+    
 
 
     /* details */
