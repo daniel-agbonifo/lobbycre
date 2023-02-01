@@ -7,6 +7,10 @@
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #3bb4fa;
     --secondary-color: #ee6352;
@@ -29,10 +33,12 @@
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.04);
     background: #fff;
     width: 100vw;
-    height: 6rem;
+    height: 7rem;
     position: fixed;
     top: 0;
 }
+
+
 
 .nav a {
     color: #333;
@@ -46,6 +52,14 @@
 
 .nav .btn a:hover {
     color: #fff;
+}
+
+.nav .btn {
+    width: 13rem;
+}
+
+.nav  .btn a {
+    font-size: 1rem;
 }
 
 
@@ -95,11 +109,12 @@
     position: absolute;
     background: rgb(236, 245, 248);
     width: 100vw;
-    height: 6rem;
+    height: 2rem;
     display: none;
     justify-content: center;
     align-items: center;
-    top: 4.5rem;
+    top: 5.5rem;
+    margin-top: 0.5rem
 
 }
 
@@ -320,6 +335,10 @@ iframe {
     height: 100%;
 }
 
+.form__mobile {
+    display: none;
+}
+
 /* end of form section */
 
 
@@ -327,7 +346,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .resource__center a {
@@ -528,6 +547,7 @@ small {
         margin-bottom: 1rem;
     }
 
+
     .trial {
         display: block;
         top: 4.4rem;
@@ -601,7 +621,7 @@ small {
     .form__section {
         display: flex;
         flex-direction: column;
-        height: 210vh;
+        height: 100%;
     }
 
     .image  {
@@ -616,9 +636,15 @@ small {
         border-radius: 1rem;
         height: 100%;
         margin-left: 0.5rem;
+        display: none;
     }
 
-   
+   .form__mobile {
+    display: flex;
+    height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
  
     
 
