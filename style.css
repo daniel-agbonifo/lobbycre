@@ -648,10 +648,6 @@ small {
         text-align: center;
     }
 
-    .about {
-        width: 25rem;
-    }
-
     .form__section {
         display: flex;
         flex-direction: column;
