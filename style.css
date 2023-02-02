@@ -682,7 +682,7 @@ small {
         position: relative;
     }
 
-
+/* 
     .about__section {
         display: flex;
         justify-content: center;
@@ -702,7 +702,7 @@ small {
 
     .about .btn {
         margin-left: 3.5rem;
-    }
+    } */
 
     .stats__container {
         flex-direction: column;
