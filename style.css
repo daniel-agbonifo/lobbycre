@@ -581,6 +581,10 @@ small {
         width: 80%;
     }
 
+    .about__section .about{
+        text-align: center;
+        align-items: center;
+    }
     .about__section .about,
     .about__section .stats__container {
         min-width: 100%;
@@ -594,17 +598,21 @@ small {
         width: 100%;
     }
 
-    .logo img {
-        margin-left: 2rem;
-        margin-bottom: 1rem;
+    nav .logo{
+        width: 100%;
+        margin: 0;
+        padding: 1vw;
+        text-align: center;
+    }
+
+    nav .logo img {
+        margin: 0;
     }
 
 
     .trial {
         display: block;
-        top: 4.4rem;
         left: 0;
-        position: absolute;
         padding-top: 0.2rem;
     }
 
@@ -682,10 +690,6 @@ small {
         gap: 1.5rem;
         padding-left: 1rem;
         padding-right: 1.5rem;
-    }
-
-    .details img {
-        display: none;
     }
 
     .footer p {
